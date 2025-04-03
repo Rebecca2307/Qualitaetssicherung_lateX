@@ -83,43 +83,6 @@
       \verb https://doi.org/10.1007/978-3-662-68169-5_4
       \endverb
     \endentry
-    \entry{eslint_find_2025}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=7617890f2589e6ff9ca4bbe1359a3c29}{%
-           family={{ESLint}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{fullhash}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{fullhashraw}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{bibnamehash}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{authorbibnamehash}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{authornamehash}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{authorfullhash}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \strng{authorfullhashraw}{7617890f2589e6ff9ca4bbe1359a3c29}
-      \field{labelalpha}{ESL25}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A pluggable and configurable linter tool for identifying and reporting on patterns in {JavaScript}. Maintain your code quality with ease.}
-      \field{day}{21}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{title}{Find and fix problems in your {JavaScript} code - {ESLint} - Pluggable {JavaScript} Linter}
-      \field{urlday}{1}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://eslint.org/
-      \endverb
-      \verb{url}
-      \verb https://eslint.org/
-      \endverb
-    \endentry
     \entry{helmold_projektmanagement_2023}{incollection}{}{}
       \name{author}{1}{}{%
         {{hash=e9c41fa7cd31922b79388405726ba7ad}{%

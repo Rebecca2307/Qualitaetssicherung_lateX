@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  30 MAR 2025 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  3 APR 2025 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,7 +203,7 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cfttabindent=\skip83
 \cfttabnumwidth=\skip84
 ) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+Package: babel 2025/03/27 v25.6 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count287
 \U@D=\dimen159
 \l@unhyphenated=\language79
@@ -319,47 +319,294 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip85
-\bibsep=\skip86
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count315
-) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip87
+\labelindent=\skip85
 \enit@outerparindent=\dimen163
 \enit@toks=\toks27
 \enit@inbox=\box53
-\enit@count@id=\count316
-\enitdp@description=\count317
-) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+\enit@count@id=\count315
+\enitdp@description=\count316
+) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count317
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count318
+\c@listtotal=\count319
+\c@listcount=\count320
+\c@liststart=\count321
+\c@liststop=\count322
+\c@citecount=\count323
+\c@citetotal=\count324
+\c@multicitecount=\count325
+\c@multicitetotal=\count326
+\c@instcount=\count327
+\c@maxnames=\count328
+\c@minnames=\count329
+\c@maxitems=\count330
+\c@minitems=\count331
+\c@citecounter=\count332
+\c@maxcitecounter=\count333
+\c@savedcitecounter=\count334
+\c@uniquelist=\count335
+\c@uniquename=\count336
+\c@refsection=\count337
+\c@refsegment=\count338
+\c@maxextratitle=\count339
+\c@maxextratitleyear=\count340
+\c@maxextraname=\count341
+\c@maxextradate=\count342
+\c@maxextraalpha=\count343
+\c@abbrvpenalty=\count344
+\c@highnamepenalty=\count345
+\c@lownamepenalty=\count346
+\c@maxparens=\count347
+\c@parenlevel=\count348
+\blx@tempcnta=\count349
+\blx@tempcntb=\count350
+\blx@tempcntc=\count351
+\c@blx@maxsection=\count352
+\blx@maxsegment@0=\count353
+\blx@notetype=\count354
+\blx@parenlevel@text=\count355
+\blx@parenlevel@foot=\count356
+\blx@sectionciteorder@0=\count357
+\blx@sectionciteorderinternal@0=\count358
+\blx@entrysetcounter=\count359
+\blx@biblioinstance=\count360
+\labelnumberwidth=\skip86
+\labelalphawidth=\skip87
+\biblabelsep=\skip88
+\bibitemsep=\skip89
+\bibnamesep=\skip90
+\bibinitsep=\skip91
+\bibparsep=\skip92
+\bibhang=\skip93
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language80
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@labelname=\count400
+\c@savedlabelname=\count401
+\c@institution=\count402
+\c@savedinstitution=\count403
+\c@lista=\count404
+\c@savedlista=\count405
+\c@listb=\count406
+\c@savedlistb=\count407
+\c@listc=\count408
+\c@savedlistc=\count409
+\c@listd=\count410
+\c@savedlistd=\count411
+\c@liste=\count412
+\c@savedliste=\count413
+\c@listf=\count414
+\c@savedlistf=\count415
+\c@location=\count416
+\c@savedlocation=\count417
+\c@organization=\count418
+\c@savedorganization=\count419
+\c@origlocation=\count420
+\c@savedoriglocation=\count421
+\c@origpublisher=\count422
+\c@savedorigpublisher=\count423
+\c@publisher=\count424
+\c@savedpublisher=\count425
+\c@language=\count426
+\c@savedlanguage=\count427
+\c@origlanguage=\count428
+\c@savedoriglanguage=\count429
+\c@pageref=\count430
+\c@savedpageref=\count431
+\shorthandwidth=\skip94
+\shortjournalwidth=\skip95
+\shortserieswidth=\skip96
+\shorttitlewidth=\skip97
+\shortauthorwidth=\skip98
+\shorteditorwidth=\skip99
+\locallabelnumberwidth=\skip100
+\locallabelalphawidth=\skip101
+\localshorthandwidth=\skip102
+\localshortjournalwidth=\skip103
+\localshortserieswidth=\skip104
+\localshorttitlewidth=\skip105
+\localshortauthorwidth=\skip106
+\localshorteditorwidth=\skip107
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count432
+\c@textcitetotal=\count433
+\c@textcitemaxnames=\count434
+\c@biburlbigbreakpenalty=\count435
+\c@biburlbreakpenalty=\count436
+\c@biburlnumpenalty=\count437
+\c@biburlucpenalty=\count438
+\c@biburllcpenalty=\count439
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count440
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\alphabetic.bbx
+File: alphabetic.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count441
+\c@bbx:relatedtotal=\count442
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\alphabetic.cbx
+File: alphabetic.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count318
+\l__color_backend_stack_int=\count443
 \l__pdf_internal_box=\box54
-) (Qualitaetssicherungsplan.aux)
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+)) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+xurl: Set penalties for biblatex
+) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count444
+\csq@gtype=\count445
+\csq@glevel=\count446
+\csq@qlevel=\count447
+\csq@maxlvl=\count448
+\csq@tshold=\count449
+\csq@ltx@everypar=\toks28
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'german'.
+ (Qualitaetssicherungsplan.aux
+Package babel Info: 'german' activates 'german' shorthands.
+(babel)             Reported  on input line 9.
+)
 \openout1 = `Qualitaetssicherungsplan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -395,47 +642,62 @@ LaTeX Font Info:    ... okay on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 24.
 (Qualitaetssicherungsplan.out) (Qualitaetssicherungsplan.out)
-\@outlinefile=\write3
-\openout3 = `Qualitaetssicherungsplan.out'.
+\@outlinefile=\write5
+\openout5 = `Qualitaetssicherungsplan.out'.
 
  (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
+\scratchcounter=\count450
 \scratchdimen=\dimen164
 \scratchbox=\box55
-\nofMPsegments=\count320
-\nofMParguments=\count321
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count322
+\nofMPsegments=\count451
+\nofMParguments=\count452
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count453
 \MPscratchDim=\dimen165
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
-\everyMPtoPDFconversion=\toks29
+\MPnumerator=\count454
+\makeMPintoPDFobject=\count455
+\everyMPtoPDFconversion=\toks30
 ) (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<logo.png, id=71, 383.18156pt x 105.01735pt>
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (C:\Users\rebis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `Qualitaetssicherungsplan.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Qualitaetssicherungsplan.bbl' found.
+ (Qualitaetssicherungsplan.bbl)
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+<logo.png, id=59, 383.18156pt x 105.01735pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 27.
+Package pdftex.def Info: logo.png  used on input line 30.
 (pdftex.def)             Requested size: 142.26378pt x 38.9904pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--50
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 53--55
+Underfull \hbox (badness 1584) in paragraph at lines 56--58
 []\OT1/cmr/bx/n/12 Verantwortlich f[]ur die-ses Do-ku-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
@@ -451,8 +713,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
 )
-\tf@toc=\write4
-\openout4 = `Qualitaetssicherungsplan.toc'.
+\tf@toc=\write6
+\openout6 = `Qualitaetssicherungsplan.toc'.
 
 
 
@@ -460,55 +722,105 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \newpage
+l.63 \newpage
               [1]
+Overfull \hbox (13.43661pt too wide) in paragraph at lines 71--72
+\OT1/cmr/m/n/12 Scrum oder Kan-ban ver-wen-det. Die-ses Pro-jekt ori-en-tiert sich an der Kanban-Vorgehensweise. 
+ []
+
+
 
 [2]
 
 [3]
-Overfull \hbox (13.43661pt too wide) in paragraph at lines 79--80
-\OT1/cmr/m/n/12 Scrum oder Kan-ban ver-wen-det. Die-ses Pro-jekt ori-en-tiert sich an der Kanban-Vorgehensweise. 
+Overfull \hbox (16.37593pt too wide) in paragraph at lines 114--115
+\OT1/cmr/m/n/12 Eine struk-tu-rier-te und um-fas-sen-de Do-ku-men-ta-ti-on ist un-ver-zicht-bar, um die Verst[]andlichkeit,
  []
+
+
+Overfull \hbox (7.07835pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/m/n/12 Im Pro-jekt wer-den ver-schie-de-ne Tools zur Do-ku-men-ta-ti-on ein-ge-setzt. Die-se un-terst[]utzen
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 124--124
+[]\OT1/cmr/bx/n/12 Automatische Ge-ne-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 124--124
+[]\OT1/cmr/m/n/12 Storybook, Sty-le-gui-dist
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\OT1/cmr/bx/n/12 Architektur-
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 125--125
+[]\OT1/cmr/m/n/12 UML, READ-ME, Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\OT1/cmr/m/n/12 README,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/cmr/m/n/12 Komponenten-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 [4]
 
 [5]
-
-[6]
-
-[7]
-
-[8]
-Overfull \hbox (3.62415pt too wide) in paragraph at lines 175--176
-\OT1/cmr/m/n/12 ge-hal-ten wer-den. Durch kla-re Struk-tu-ren, de-fi-nier-te Pro-zes-se und die Ein-hal-tung bew[]ahrter
+Overfull \hbox (22.55318pt too wide) in paragraph at lines 149--150
+\OT1/cmr/m/n/12 soll-ten Do-ku-men-te re-gelm[]a^^Yig []uberpr[]uft und ak-tua-li-siert wer-den. Hier-bei wird []uberpr[]uft,
  []
 
 
 
-[9] (Qualitaetssicherungsplan.bbl)
+[6]
+Overfull \hbox (6.74236pt too wide) in paragraph at lines 154--154
+[]\OT1/cmr/m/n/12 Andr^^Se De-change. []  Agi-les Pro-jekt-ma-na-ge-ment\. In: \OT1/cmr/m/it/12 Pro-jekt-ma-na-ge-ment { Schnell
+ []
 
-[10] (Qualitaetssicherungsplan.aux)
+
+Overfull \hbox (8.24294pt too wide) in paragraph at lines 154--154
+[]\OT1/cmr/m/n/12 StudySmarter. \OT1/cmr/m/it/12 Do-ku-men-ta-ti-ons-re-view: De-fi-ni-ti-on & Tech-nik\OT1/cmr/m/n/12 . Stu-dyS-mar-ter. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 :
+ []
+
+
+
+[7] (Qualitaetssicherungsplan.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Qualitaetssicherungsplan.out' has not changed.
-(rerunfilecheck)             Checksum: 6226C8010A85CED5DFDDA89A123668DC;2505.
+(rerunfilecheck)             Checksum: E15D3A6EAF76CD795967380006D8E4B9;2089.
+Package logreq Info: Writing requests to 'Qualitaetssicherungsplan.run.xml'.
+\openout1 = `Qualitaetssicherungsplan.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 12967 strings out of 473523
- 208128 string characters out of 5714630
- 649293 words of memory out of 5000000
- 35983 multiletter control sequences out of 15000+600000
- 564381 words of font info for 54 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,5n,79p,1131b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\rebis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Qualitaetssicherungsplan.pdf (11 pages, 119444 bytes).
+ 20523 strings out of 473523
+ 363071 string characters out of 5714631
+ 1236574 words of memory out of 5000000
+ 43478 multiletter control sequences out of 15000+600000
+ 564851 words of font info for 56 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 75i,11n,81p,1131b,1775s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\rebis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Qualitaetssicherungsplan.pdf (8 pages, 145421 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

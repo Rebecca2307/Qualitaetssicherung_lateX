@@ -8,12 +8,15 @@
 \usepackage{datetime}
 \usepackage{graphicx} 
 \usepackage{xcolor}
-\usepackage{natbib} % Benötigt für BibTeX
-\bibliographystyle{alpha} % Stil für BibTeX
+\usepackage{comment}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{enumitem}
 \renewcommand{\arraystretch}{2}
+\usepackage[backend=biber,style=alphabetic,hyperref=true]{biblatex}
+\usepackage{xurl}  % Verbessert URL-Umbrüche
+\addbibresource{literatur.bib}  % Bib-Datei einbinden
+\usepackage{csquotes}
 
 \renewcommand{\dateseparator}{.} % Setzt das Datumsformat auf TT.MM.JJJJ
 \geometry{a4paper, margin=2.5cm}
@@ -26,9 +29,9 @@
     \begin{flushleft}
         \includegraphics[width=5cm]{logo.png}
     \end{flushleft}
-    
+
     \vfill
-    
+
     \begin{center}
         \Huge \textbf{Qualitätssicherungsplan} \\[1.0cm]
         \Large NextGen Development \\[0.5cm]
@@ -36,20 +39,20 @@
         \textbf{Version 1.0} \\[0.5cm] %BITTE NACH ÄNDERUNGEN ANPASSEN!
         \large \today \\[1.5cm]
     \end{center}
-    
+
     \vfill
 
     \noindent
     \begin{minipage}[t]{0.45\textwidth}
         \textbf{Teammitglieder:}\\
         Julian Lachenmaier\\
-        Ayo Adeniyi\\ 
-        Din Alomerovic\\ 
-        Cedric Balzer\\ 
+        Ayo Adeniyi\\
+        Din Alomerovic\\
+        Cedric Balzer\\
         Rebecca Niklaus\\
     \end{minipage}%
-    \hspace{1cm} 
-    \begin{minipage}[t]{0.45\textwidth} 
+    \hspace{1cm}
+    \begin{minipage}[t]{0.45\textwidth}
         \textbf{Verantwortlich für dieses Dokument:}\\
         Rebecca Niklaus (Qualitätssicherung)\\
     \end{minipage}
@@ -61,120 +64,92 @@
 
 \section{Einleitung}
 Dieser Qualitätssicherungsplan definiert die Maßahmen zur Sicherstellung der Qualität aller Ergebnisse des Projekts. Er beinhaltet eine klare Gliederung, die Verwendung von Templates und Versionierung sowie spezifische Qualitätsstandards.
-\newpage
-
-\section{Ziele}
-Die Hauptziele der Qualitätssicherung sind:
-\begin{itemize}
-    \item Sicherstellung der Einhaltung von Standards und Best Practices
-    \item Vermeidung und frühe Erkennung von Fehlern
-    \item Sicherstellung einer einheitlichen und gut dokumentierten Codebasis
-    \item Klare Struktur und Versionierung der Dokumentation
-\end{itemize}
-\newpage
 
 \section{Projektmanagement}
 Ziel des Projektmanagements ist, Risiken zu begrenzen und Projektziele unter Verwendung der verfügbaren Ressourcen zu erreichen. Das Endergebnis des Projekts soll den Anforderungen des Kunden entsprechen. Im folgenden Abschnitt werden Maßnahmen definiert, um dieses auf Seiten des Projektmanagements zu erreichen.
 
 Um einen organisierten Projektablauf zu gewährleisten, werden häufig Methoden wie Scrum oder Kanban verwendet. Dieses Projekt orientiert sich an der Kanban-Vorgehensweise.
 
-Kanban ist eine agile Methode. Das heißt, dass man die Arbeitsweise im Laufe des Projekts durch kleine Änderungen laufend verbessert \cite{dechange_agiles_2024}. Zur Visualisierung der Aufgaben des Teams wird ein Kanban-Board verwendet. Diese werden in drei Zustände unterteilt: To-Do, in Bearbeitung und vollständig. Für die Projektplanung wird das Tool \textbf{ClickUp} verwendet. 
+Kanban ist eine agile Methode. Das heißt, dass man die Arbeitsweise im Laufe des Projekts durch kleine Änderungen laufend verbessert \cite{dechange_agiles_2024}. Zur Visualisierung der Aufgaben des Teams wird ein Kanban-Board verwendet. Diese werden in drei Zustände unterteilt: To-Do, in Bearbeitung und vollständig. Für die Projektplanung wird das Tool \textbf{ClickUp} verwendet.
 
-    \subsection{Ressourcen-Planung} Für die Bearbeitung eines Projekts stehen begrenzte Ressourcen zur Verfügung. Im Rahmen dieses Projekts sind Personal- und zeitliche Ressourcen relevant. 
-    
-    Das Zeitmanagement stellt sicher, dass Abgabefristen eingehalten werden können \cite{helmold_projektmanagement_2023}. Jedem der fünf Projektmitglieder steht wöchentlich 10 Stunden zur Verfügung. Um diese möglichst sinnvoll zu nutzen, wird die Aufgabenverteilung auf die Fähigkeiten und Erfahrungen der Mitglieder angepasst. Die Zeiterfassung erfolgt in ClickUp.
+\subsection{Ressourcen-Planung} Für die Bearbeitung eines Projekts stehen begrenzte Ressourcen zur Verfügung. Im Rahmen dieses Projekts sind Personal- und zeitliche Ressourcen relevant.
 
-    \subsection{Projektphasen und Meilensteine} Das Projekt wird in mehrere Phasen unterteilt, um eine strukturierte Vorgehensweise sicherzustellen. Jeder Phase sind klare Meilensteine zugewiesen, um den Fortschritt messbar zu machen. Diese sind im Projektplan festgelegt.
-    
-    Zu Beginn steht die Planungsphase, in der die Anforderungen und Ziele des Projekts definiert werden. In dieser Phase wird außerdem das Kanban-Board erstellt und erste Aufgaben zugewiesen. Anschließend folgt die Entwicklungsphase, in der die Kernfunktionen des Projekts umgesetzt werden. Während dieser Phase erfolgen regelmäßige Tests und interne Reviews, um den Fortschritt zu überprüfen.
+Das Zeitmanagement stellt sicher, dass Abgabefristen eingehalten werden können \cite{helmold_projektmanagement_2023}. Jedem der fünf Projektmitglieder steht wöchentlich 10 Stunden zur Verfügung. Um diese möglichst sinnvoll zu nutzen, wird die Aufgabenverteilung auf die Fähigkeiten und Erfahrungen der Mitglieder angepasst. Die Zeiterfassung erfolgt in ClickUp.
 
-    Nach der Entwicklung beginnt die Testphase, in der Funktionstests durchgeführt und identifizierte Fehler behoben werden. Diese Phase beinhaltet auch Feedback-Runden mit dem Team, um mögliche Optimierungen vorzunehmen. Abschließend folgt die Abschlussphase, in der letzte Qualitätskontrollen durchgeführt, die finale Dokumentation erstellt und das Projekt offiziell abgeschlossen wird. Der strukturierte Aufbau mit klaren Meilensteinen stellt sicher, dass das Projekt effizient durchgeführt und die gesetzten Ziele erreicht werden.
+\subsection{Projektphasen und Meilensteine} Das Projekt wird in mehrere Phasen unterteilt, um eine strukturierte Vorgehensweise sicherzustellen. Jeder Phase sind klare Meilensteine zugewiesen, um den Fortschritt messbar zu machen. Diese sind im Projektplan festgelegt.
 
-    \subsection{Kommunikationsmanagement} Grundvorraussetzung für einen erfolgreichen Projektablauf stellt die Zusammenarbeit und das Wohlbefinden der einzelnen Mitglieder dar. Sollten sich Mitglieder über- oder unterfordert fühlen, soll dies direkt kommuniziert werden können. Daher werden zwei Teams-Meetings á 15 Minuten pro Woche fest eingeplant, um mögliche Engpässe frühzeitig zu beheben. Außerdem besteht jederzeit die Möglichkeit, sich über Teams oder WhatsApp an sein Team zu wenden.
+\subsection{Kommunikationsmanagement} Grundvorraussetzung für einen erfolgreichen Projektablauf stellt die Zusammenarbeit und das Wohlbefinden der einzelnen Mitglieder dar. Sollten sich Mitglieder über- oder unterfordert fühlen, soll dies direkt kommuniziert werden können. Daher werden zwei Teams-Meetings á 15 Minuten pro Woche fest eingeplant, um mögliche Engpässe frühzeitig zu beheben. Außerdem besteht jederzeit die Möglichkeit, sich über Teams oder WhatsApp an sein Team zu wenden.
 
-    \subsection{Risikomanagement} Bereits zu Beginn des Projekts werden mögliche Risiken, die im Laufe des Projekts zu Problemen führen können, analysiert. Im Bereich des Projektmanagements werden hierbei insbesondere Risiken genannt, die sich auf einen Ressourcen-Mangel beziehen. Daher wird eine Risikoanalyse durchgeführt, um präventive Maßnahmen vor Beginn des Projekts zu definieren und um auf mögliche Komplikationen vorbereitet zu sein.
+\subsection{Risikomanagement} Bereits zu Beginn des Projekts werden mögliche Risiken, die im Laufe des Projekts zu Problemen führen können, analysiert. Im Bereich des Projektmanagements werden hierbei insbesondere Risiken genannt, die sich auf einen Ressourcen-Mangel beziehen. Daher wird eine Risikoanalyse durchgeführt, um präventive Maßnahmen vor Beginn des Projekts zu definieren und um auf mögliche Komplikationen vorbereitet zu sein.
 
-    \subsection{Checkliste}
-    Die folgende Checkliste fasst die wichtigsten Punkte zusammen, die während des Projekts im Bereich Projektmanagement kontinuierlich beachtet und umgesetzt werden sollten.
-    \begin{itemize}[label=\textbf{X}]
-        \item Aufgabenverteilung basiert auf den Erfahrungen der Mitglieder
-        \begin{itemize}
-            \item Stärken und Schwächen der Teammitglieder berücksichtigt
-            \item Anpassung bei Bedarf während des Projekts
-        \end{itemize}
-        \item Projektphasen sind klar definiert
-        \item Zwei wöchentliche Teams-Meetings á 15 Minuten eingeplant, werden bei Bedarf durchgeführt
-        \begin{itemize}
-            \item Dienstags: Wöchentlicher Check-in
-            \item Donnerstags: Besprechung der Review
-        \end{itemize}
-        \item Präventive Risikomaßnahmen sind berücksichtigt
-        \begin{itemize}
-            \item Risikoanalyse vor Projektstart abgeschlossen
-            \item Regelmäßige Überprüfung von Engpässen
-        \end{itemize}
-    \end{itemize}
-    
-
-\newpage
-
-\section{Qualitätssicherungsmaßnahmen}
-\subsection{Code-Qualität}
-\begin{itemize}
-    \item \textbf{Vier-Augen-Prinzip}: Jeder Code-Commit muss vor der Freigabe von mindestens einer weiteren Person überprüft werden.
-    \item \textbf{Code-Conventions}: Einhaltung definierter Codierstandards, z.B. Formatierung, Benennungsregeln und Kommentierungsrichtlinien.
-    \item \textbf{Pair-Programming}: Regelmäßige Anwendung zur Steigerung der Code-Qualität.
-    \item \textbf{Automatisierte Tests}: Implementierung von Unit-Tests, Integrationstests und ggf. UI-Tests. \cite{helmold_projektmanagement_2023}
-
-\end{itemize}
+\section{Software-Qualität}
+Software-Qualität bezieht sich auf die Gesamtheit von Merkmalen und Eigenschaften, die sicherstellen, dass die Software die Anforderungen erfüllt sowie stabil und wartbar bleibt. Ein wichtiger Punkt ist die Verwaltung des Codes, die durch die Nutzung gewisser Verfahren und Tools erreicht wird. Die umfasst sowohl die Versionskontrolle als auch die Beachtung der Code-Qualität.
 
 \subsection{Versionskontrolle}
+n der Versionskontrolle wird GitHub als Plattform genutzt, um den effektiv zu verwalten und Änderungen nachvollziehen zu können. Das Hauptziel dabei ist, eine klare und strukturierte Entwicklung zu gewährleisten, um die Codequalität zu maximieren. Dabei sind folgende Punkte zu beachten:
+
 \begin{itemize}
-    \item Verwendung von \textbf{Git} zur Nachverfolgbarkeit von Änderungen.
-    \item Nutzung eines definierten \textbf{Branching-Modells} (z.B. Git Flow).
-    \item Reviews und Merge-Requests als Pflichtprozess vor der Zusammenführung in den Hauptbranch.
+    \item \textbf{Branching-Modell:} Ein effektives Branching-Modell ist entscheidend, um parallel an verschiedenen Funktionen und Fixes arbeiten zu können, ohne die Entwicklung anderer Bereiche zu stören. Ein gängiges Modell ist das Git-Flow-Modell oder eine angepasste Version davon. Der Hauptbranch enthält immer die Version des Codes, die produktionsbereit ist. Für jedes neue Feature wird ein eigener Branch erstellt. Nach der Fertigstellung und einer Überprüfung der Code-Qualität wird dieser in den Hauptbranch gemerged.
+    \item \textbf{Pull-Requests und Code-Reviews:} Bevor Codeänderungen in den Hauptbranch gemerged werden, muss eine Pull-Request durchgeführt werden. So wird sichergestellt, dass der Code den Qualitätsstandards entspricht und keine bestehenden Funktionen beinträchtigt werden.
+    \item \textbf{Merge-Requests:} Bevor eine Merge-Request akzeptiert werden kann, müssen alle Tests bestanden werden. Dadurch wird sichergestellt, dass nur getesteter Code in den Hauptbranch gelangt.
 \end{itemize}
 
-\subsection{Entwicklungsumgebung}
+Durch die Anwendung dieser Prozesse wird die Codequalität durchgehend überwacht und verbessert, während parallel die Flexibilität und Effizienz bei der Entwicklung neuer Features erhalten bleibt.
+
+\subsection{Code-Qualität}
+Durch einheitliche Konfigurationen und Best Practices wird sichergestellt, dass der Code gut strukturiert, wartbar und fehlerfrei bleibt. Dafür werden folgende Ansätze und Werkzeuge verwendet:
+
 \begin{itemize}
-    \item \textbf{Einheitliche Konfigurationen f\"ur IDEs}: Verwendung gemeinsamer Settings und Plugins.
-    \item Definierte \textbf{Versionen} von Abhängigkeiten und Bibliotheken zur Sicherstellung der Reproduzierbarkeit.
-    \item Bereitstellung eines Setup-Guides zur einfachen Einrichtung der Entwicklungsumgebung.
+    \item \textbf{Einheitliche Konfigurationen für IDEs}: Eine Nutzung einheitlicher Versionen ist essenziell, um Code-Konflikte zu vermeiden. Für \mbox{ASP.NET} wird hierbei die Version 8.0 verwendet, für React Version 19. So wird sichergestellt, dass keine Inkompatibilitäten auftreten.
+    \item \textbf{Best Practices:} Außerdem sollen Best Practices genutzt werden, um eine gute Code-Qualität sicherzustellen. In React wird hierbei ESLint verwendet. ESLint ist ein Tool zur Analyse von JavaScript-Code, das Probleme findet, um Code konsistenter und fehlerfreier zu machen. Viele Probleme können automatisch behoben werden \cite{eslint_find_2025}. C\#?
 \end{itemize}
-\newpage
+
+\section{Textkonzept}
+GitHub Actions für automatisierte Tests
+
+Nach jedem Push 
 
 \section{Dokumentationskonzept}
-\subsection{Arten von Dokumenten}
-Folgende Dokumente fallen w\"ahrend des Projekts an:
+
+Eine strukturierte und umfassende Dokumentation ist unverzichtbar, um die Verständlichkeit, Wartbarkeit und Erweiterbarkeit der Software garantieren zu können. Sie dient als Grundlage für Entwickler, Tester und weitere Stakeholder, um sich effizient in den Code einzuarbeiten. Außerdem sollten Designentscheidungen für den Kunden ersichtlich sein.
+
+Im Projekt werden verschiedene Tools zur Dokumentation eingesetzt. Diese unterstützen sowohl die Code-Dokumentation als auch die Beschreibung der Systemarchitektur und der API-Schnittstellen. Die folgende Tabelle bietet einen Überblick über die eingesetzten Werkzeuge für die Dokumentation in \mbox{ASP.NET} und React.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{4.5cm}|p{4.5cm}|p{4.5cm}|}
+        \hline
+        \textbf{Framework}                 & \textbf{ASP.NET}        & \textbf{React}                \\ \hline
+        \textbf{Code-Kommentare}           & XML-Dokumentation       & JSDoc                         \\ \hline
+        \textbf{Automatische Generierung}  & DocFX, Swagger          & Storybook, Styleguidist (???) \\ \hline
+        \textbf{Architektur-Dokumentation} & UML, README, Confluence & README, Komponenten-Diagramme \\ \hline
+        \textbf{API-Dokumentation}         & Swagger (OpenAPI)       & OpenAPI für API-Calls         \\ \hline
+    \end{tabular}
+    \caption{Werkzeuge für die Dokumentation in ASP.NET und React}
+    \label{tab:werkzeuge_dokumentation}
+\end{table}
+
+\section{Dokumente}
+Im Laufe des Projekts fallen mehrere Dokumente an, die sowohl zur internen Organisation als auch zur externen Kommunikation mit Betreuern und Kunden dienen. Diese Dokumente unterstützen das Projektmanagement, die Nachverfolgbarkeit von Fortschritten sowie die Qualitätssicherung. Eine klare Struktur und ein einheitlicher Umgang mit diesen Dokumenten sind daher essenziell, um Effizienz, Transparenz und Konsistenz zu gewährleisten.
+
+Je nach Verwendungszweck lassen sich die Dokumente in regelmäßige Berichte sowie dynamische, sich weiterentwickelnde Dokumente unterteilen. Während wöchentliche Abgaben die Projektdokumentation sicherstellen, müssen zentrale Dokumente wie das Lasten- oder Pflichtenheft fortlaufend an veränderte Anforderungen angepasst werden. Die folgenden Abschnitte beschreiben, welche Dokumente erstellt werden müssen und wie der Umgang mit Änderungen organisiert ist.
+
+\subsection{Wöchentliche Abgabe}
+Wöchentlich abzugeben sind folgende Dokumente:
 \begin{itemize}
-    \item \textbf{Architekturdokumentation}: Struktur und technische Entscheidungen.
-    \item \textbf{Anforderungsdokumentation}: Spezifikationen und Ziele.
-    \item \textbf{Testdokumentation}: Teststrategien, Testfälle und Testergebnisse.
-    \item \textbf{Entwicklerdokumentation}: Code- und API-Dokumentation.
-    \item \textbf{Nutzerdokumentation}: Anleitungen und Manuals.
+    \item \textbf{Wochenbericht:} Wöchentlich muss ein Wochenstatusbericht eingereicht werden, in dem die bearbeiteten Aufgaben reflektiert werden sollen. Des Weiteren wird sich auf Abweichungen vom Projektplan bezogen, um die Gestaltung der folgendenen Wochen dementsprechend anpassen zu können. Dafür wurde ein Template in Word erstellt, das in ClickUp hinterlegt wurde.
+    \item \textbf{Aufwandsbericht:} Ebenfalls wöchentlich einzureichen ist der Aufwandsbericht. Dieser entnimmt die aufgewendete Zeit der Projektmitglieder aus ClickUp und summiert diese. Außerdem soll die insgesamt aufgewendete Zeit berechnet werden. Dies erfolgt in Excel und wird als PDF eingereicht.
 \end{itemize}
 
-\subsection{Qualitätsstandards}
+\subsection{Umgang mit sich weiterentwickelnden Dokumenten}
+Dokumente wie das Lasten- oder Pflichtenheft werden im Projektverlauf häufig an sich ändernde Anforderungen angepasst. Dies stellt sicher, dass Änderungen klar nachvollzogen werden können. Dabei sollten folgende Punkte beachtet werden:
 \begin{itemize}
-    \item Einheitliche Formatierung und Versionierung der Dokumente.
-    \item Verwendung von Templates zur Sicherstellung einer konsistenten Struktur.
-    \item Regelmäßige Überprüfung und Aktualisierung der Dokumentation.
-    \item Definierte Prozesse zur Nachverfolgbarkeit von Änderungen.
+    \item \textbf{Versionierung}: Jede Dokumentenänderung wird mit einer neuen Versionsnummer versehen. Dies stellt sicher, dass Änderungen klar nachvollzogen werden können, was sowohl aus Kunden- als auch Entwicklersicht relevant ist.
+    \item \textbf{Historisierung}: Ältere Versionen bleiben zur Nachverfolgbarkeit erhalten und sollten weiterhin zur Verfügung stehen. Dies erfolgt über die frei zugängliche Website des Teams.
+    \item \textbf{Regelmäßige Reviews}: Um eine hohe Qualität und Konsistenz sicherzustellen, sollten Dokumente regelmäßig überprüft und aktualisiert werden. Hierbei wird überprüft, ob gewisse Standards oder Vorgaben eingehalten werden. Dies erfolgt durch definierte Reviewer, die nach dem Vier-Augen-Prinzip oder in Form von Peer Reviews arbeiten \cite{studysmarter_dokumentationsreview_nodate}.
 \end{itemize}
-\newpage
 
-\section{Umgang mit sich weiterentwickelnden Dokumenten}
-\begin{itemize}
-    \item \textbf{Versionierung}: Jede Dokumentenänderung wird mit einer neuen Versionsnummer versehen.
-    \item \textbf{Historisierung}: Ältere Versionen bleiben zur Nachverfolgbarkeit erhalten.
-    \item \textbf{Regelmäßige Reviews}: Überprüfung und Aktualisierung durch definierte Reviewer.
-\end{itemize}
 \newpage
-
-\section{Fazit}
-Dieser Qualitätssicherungsplan stellt sicher, dass die Qualitätsstandards des Projekts eingehalten werden. Durch klare Strukturen, definierte Prozesse und die Einhaltung bewährter Methoden wird die langfristige Wartbarkeit und Erweiterbarkeit des Codes sowie der gesamten Projektdokumentation gewährleistet.
-\newpage
-
-\bibliography{literatur}
+\printbibliography
 
 \end{document}
