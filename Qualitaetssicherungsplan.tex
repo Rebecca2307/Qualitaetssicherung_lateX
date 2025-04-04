@@ -81,7 +81,7 @@ Kanban ist eine agile Methode. Das heißt, dass man die Arbeitsweise im Laufe de
 
 Das Zeitmanagement stellt sicher, dass Abgabefristen eingehalten werden können \cite{helmold_projektmanagement_2023}. Jedem der fünf Projektmitglieder steht wöchentlich 10 Stunden zur Verfügung. Um diese möglichst sinnvoll zu nutzen, wird die Aufgabenverteilung auf die Fähigkeiten und Erfahrungen der Mitglieder angepasst. Die Zeiterfassung erfolgt in ClickUp.
 
-\subsection{Projektphasen und Meilensteine} Das Projekt wird in mehrere Phasen unterteilt, um eine strukturierte Vorgehensweise sicherzustellen. Jeder Phase sind klare Meilensteine zugewiesen, um den Fortschritt messbar zu machen. Diese sind im Projektplan festgelegt.
+\subsection{Projektphasen und Meilensteine} Das Projekt wird in mehrere Phasen unterteilt, um eine strukturierte Vorgehensweise sicherzustellen. Jeder Phase sind klare Meilensteine zugewiesen, um den Fortschritt messbar zu machen und um sicherzustellen, dass Deadlines eingehalten werden können. Die Meilensteine sind im Projektplan festgelegt.
 
 \subsection{Kommunikationsmanagement} Grundvorraussetzung für einen erfolgreichen Projektablauf stellt die Zusammenarbeit und das Wohlbefinden der einzelnen Mitglieder dar. Sollten sich Mitglieder über- oder unterfordert fühlen, soll dies direkt kommuniziert werden können. Daher werden zwei Teams-Meetings á 15 Minuten pro Woche fest eingeplant, um mögliche Engpässe frühzeitig zu beheben. Außerdem besteht jederzeit die Möglichkeit, sich über Teams oder WhatsApp an sein Team zu wenden.
 
@@ -95,7 +95,7 @@ Software-Qualität bezieht sich auf die Gesamtheit von Merkmalen und Eigenschaft
 n der Versionskontrolle wird GitHub als Plattform genutzt, um den effektiv zu verwalten und Änderungen nachvollziehen zu können. Das Hauptziel dabei ist, eine klare und strukturierte Entwicklung zu gewährleisten, um die Codequalität zu maximieren. Dabei sind folgende Punkte zu beachten:
 
 \begin{itemize}
-    \item \textbf{Branching-Modell:} Ein effektives Branching-Modell ist entscheidend, um parallel an verschiedenen Funktionen und Fixes arbeiten zu können, ohne die Entwicklung anderer Bereiche zu stören. Ein gängiges Modell ist das Git-Flow-Modell oder eine angepasste Version davon. Der Hauptbranch enthält immer die Version des Codes, die produktionsbereit ist. Für jedes neue Feature wird ein eigener Branch erstellt. Nach der Fertigstellung und einer Überprüfung der Code-Qualität wird dieser in den Hauptbranch gemerged.
+    \item \textbf{Branching-Modell:} Ein effektives Branching-Modell ist entscheidend, um parallel an verschiedenen Funktionen und Fixes arbeiten zu können, ohne die Entwicklung anderer Bereiche zu stören. Ein gängiges Modell ist das Git-Flow-Modell oder eine angepasste Version davon. Der Hauptbranch enthält immer die Version des Codes, die produktionsbereit ist. Für jedes neue Feature oder für Bug-Fixes wird ein eigener Branch erstellt. Nach der Fertigstellung und einer Überprüfung der Code-Qualität wird dieser in den Hauptbranch gemerged.
     \item \textbf{Pull-Requests und Code-Reviews:} Bevor Codeänderungen in den Hauptbranch gemerged werden, muss eine Pull-Request durchgeführt werden. So wird sichergestellt, dass der Code den Qualitätsstandards entspricht und keine bestehenden Funktionen beinträchtigt werden.
     \item \textbf{Merge-Requests:} Bevor eine Merge-Request akzeptiert werden kann, müssen alle Tests bestanden werden. Dadurch wird sichergestellt, dass nur getesteter Code in den Hauptbranch gelangt.
 \end{itemize}
@@ -107,7 +107,7 @@ Durch einheitliche Konfigurationen und Best Practices wird sichergestellt, dass 
 
 \begin{itemize}
     \item \textbf{Einheitliche Konfigurationen für IDEs}: Eine Nutzung einheitlicher Versionen ist essenziell, um Code-Konflikte zu vermeiden. Für \mbox{ASP.NET} wird hierbei die Version 8.0 verwendet, für React Version 19. So wird sichergestellt, dass keine Inkompatibilitäten auftreten.
-    \item \textbf{Best Practices:} Außerdem sollen Best Practices genutzt werden, um eine gute Code-Qualität sicherzustellen. In React wird hierbei ESLint verwendet. ESLint ist ein Tool zur Analyse von JavaScript-Code, das Probleme findet, um Code konsistenter und fehlerfreier zu machen. Viele Probleme können automatisch behoben werden \cite{eslint_find_2025}. C\#?
+    \item \textbf{Best Practices:} Außerdem sollen Best Practices genutzt werden, um eine gute Code-Qualität sicherzustellen. In React wird hierbei ESLint verwendet. ESLint ist ein Tool zur Analyse von JavaScript-Code, das Probleme findet, um Code konsistenter und fehlerfreier zu machen. Viele Probleme können automatisch behoben werden \cite{eslint_find_2025}. In .NET sind standardmäßig Roslyn Analyzers enthalten. Für eine umfassende Codeanalyse empfiehlt es sich, die integrierten Roslyn Analyzers mit StyleCop.Analyzers zu kombinieren, da Roslyn grundlegende Fehler und Warnungen erkennt, während StyleCop zusätzlich für konsistente Code-Stil- und Formatierungsrichtlinien sorgt.
 \end{itemize}
 
 \newpage
@@ -135,7 +135,7 @@ Des Weiteren kann zwischen folgenden Fehlerarten unterschieden werden, für dere
 \end{itemize}
 
 \subsection{Umsetzung}
-Auch die Umsetzung kann unterschiedlich in Angriff genommen werden. Es besteht die Möglichkeit, Black Box Testing, White Box Testing oder Grey Box Testing durchzuführen. Black Box Testing wird aus Benutzersicht durchgeführt, da dort die Software unabhängig vom Quellcode durchgeführt wird. White Box Testing hingegen setzt sich mit dem Kern und Struktur der Anwendung auseinander \cite{gedik_schwarz_2023}. Grey Box Testing stellt eine Mischform aus beiden Testarten dar und ist ein guter Kompromiss aus Aufwand und Nutzen. Nur kritische Systeme werden als White Box genau betrachtet, nicht so wichtige als Black Box \cite{eichstadt_testen_2024}. Daher erweist sich diese Art des Testens für dieses Projekt als am sinnvollsten.
+Auch die Umsetzung kann unterschiedlich in Angriff genommen werden. Es besteht die Möglichkeit, Black Box Testing, White Box Testing oder Grey Box Testing durchzuführen. Black Box Testing wird aus Benutzersicht durchgeführt, da dort die Software unabhängig vom Quellcode durchgeführt wird. White Box Testing hingegen setzt sich mit dem Kern und Struktur der Anwendung auseinander \cite{gedik_schwarz_2023}. Grey Box Testing stellt eine Mischform aus beiden Testarten dar und bildet einen guten Kompromiss aus Aufwand und Nutzen. Nur kritische Systeme werden als White Box genau betrachtet, nicht so wichtige als Black Box \cite{eichstadt_testen_2024}. Daher erweist sich diese Art des Testens für dieses Projekt als am sinnvollsten.
 
 Für automatisierte Tests werden Tools wie GitHub Actions oder Jenkins verwendet. Nach jedem Push werden verschiedene Prozesse durchlaufen, darunter auch automatisierte Tests. Somit können Regressionstests regelmäßig durchgeführt werden, um nach jeder Änderung überprüfen zu können, ob bereits realisierte Features weiterhin funktionstüchtig sind.
 
@@ -152,7 +152,7 @@ Im Projekt werden verschiedene Tools zur Dokumentation eingesetzt. Diese unterst
         \hline
         \textbf{Framework}                 & \textbf{ASP.NET}        & \textbf{React}                \\ \hline
         \textbf{Code-Kommentare}           & XML-Dokumentation       & JSDoc                         \\ \hline
-        \textbf{Automatische Generierung}  & DocFX, Swagger          & Storybook, Styleguidist (???) \\ \hline
+        \textbf{Automatische Generierung}  & DocFX, Swagger          & Storybook, Styleguidist       \\ \hline
         \textbf{Architektur-Dokumentation} & UML, README, Confluence & README, Komponenten-Diagramme \\ \hline
         \textbf{API-Dokumentation}         & Swagger (OpenAPI)       & OpenAPI für API-Calls         \\ \hline
     \end{tabular}

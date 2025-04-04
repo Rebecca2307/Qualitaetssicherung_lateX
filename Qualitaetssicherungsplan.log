@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  4 APR 2025 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  4 APR 2025 20:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -768,11 +768,6 @@ Underfull \hbox (badness 3679) in paragraph at lines 155--155
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 155--155
-[]\OT1/cmr/m/n/12 Storybook, Sty-le-gui-dist
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/cmr/bx/n/12 Architektur-
  []
@@ -837,7 +832,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  75i,11n,81p,1131b,1775s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rebis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Qualitaetssicherungsplan.pdf (14 pages, 163919 bytes).
+Output written on Qualitaetssicherungsplan.pdf (14 pages, 163870 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
