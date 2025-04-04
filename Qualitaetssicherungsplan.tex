@@ -63,8 +63,13 @@
 \newpage
 
 \section{Einleitung}
-Dieser Qualitätssicherungsplan definiert die Maßahmen zur Sicherstellung der Qualität aller Ergebnisse des Projekts. Er beinhaltet eine klare Gliederung, die Verwendung von Templates und Versionierung sowie spezifische Qualitätsstandards.
+Die Qualitätssicherung spielt eine zentrale Rolle im gesamten Projektverlauf. Dadurch soll sichergestellt werden, dass alle Ergebnisse den definierten Anforderungen entsprechen. Dieser Qualitätssicherungsplan beschreibt die Maßnahmen, Prozesse und Standards, die angewendet werden, um eine hohe Qualität der Software sowie der zugehörigen Dokumentation zu gewährleisten.
 
+Der Plan umfasst verschiedene Aspekte der Qualitätssicherung, darunter das Projektmanagement, die Einhaltung von Coding-Standards, Versionierung, Teststrategien sowie die Dokumentation. Durch die Implementierung bewährter Methoden und den Einsatz geeigneter Tools wird sichergestellt, dass das Endprodukt nicht nur funktional, sondern auch stabil, wartbar und benutzerfreundlich ist.
+
+Darüber hinaus legt dieser Plan die Verantwortlichkeiten innerhalb des Teams fest und beschreibt, wie Qualitätssicherungsmaßnahmen kontinuierlich überwacht und verbessert werden. Ziel ist es, potenzielle Fehler frühzeitig zu erkennen, Risiken zu minimieren und eine transparente sowie effiziente Zusammenarbeit zu fördern.
+
+\newpage
 \section{Projektmanagement}
 Ziel des Projektmanagements ist, Risiken zu begrenzen und Projektziele unter Verwendung der verfügbaren Ressourcen zu erreichen. Das Endergebnis des Projekts soll den Anforderungen des Kunden entsprechen. Im folgenden Abschnitt werden Maßnahmen definiert, um dieses auf Seiten des Projektmanagements zu erreichen.
 
@@ -82,6 +87,7 @@ Das Zeitmanagement stellt sicher, dass Abgabefristen eingehalten werden können 
 
 \subsection{Risikomanagement} Bereits zu Beginn des Projekts werden mögliche Risiken, die im Laufe des Projekts zu Problemen führen können, analysiert. Im Bereich des Projektmanagements werden hierbei insbesondere Risiken genannt, die sich auf einen Ressourcen-Mangel beziehen. Daher wird eine Risikoanalyse durchgeführt, um präventive Maßnahmen vor Beginn des Projekts zu definieren und um auf mögliche Komplikationen vorbereitet zu sein.
 
+\newpage
 \section{Software-Qualität}
 Software-Qualität bezieht sich auf die Gesamtheit von Merkmalen und Eigenschaften, die sicherstellen, dass die Software die Anforderungen erfüllt sowie stabil und wartbar bleibt. Ein wichtiger Punkt ist die Verwaltung des Codes, die durch die Nutzung gewisser Verfahren und Tools erreicht wird. Die umfasst sowohl die Versionskontrolle als auch die Beachtung der Code-Qualität.
 
@@ -104,11 +110,36 @@ Durch einheitliche Konfigurationen und Best Practices wird sichergestellt, dass 
     \item \textbf{Best Practices:} Außerdem sollen Best Practices genutzt werden, um eine gute Code-Qualität sicherzustellen. In React wird hierbei ESLint verwendet. ESLint ist ein Tool zur Analyse von JavaScript-Code, das Probleme findet, um Code konsistenter und fehlerfreier zu machen. Viele Probleme können automatisch behoben werden \cite{eslint_find_2025}. C\#?
 \end{itemize}
 
+\newpage
 \section{Textkonzept}
-GitHub Actions für automatisierte Tests
+Mithilfe von Tests werden Bugs gefunden, die im Laufe der Entwicklung auftreten können. Durch sie wird ermittelt, ob ein Programm so funktioniert, wie es gedacht ist \cite{eichstadt_testen_2024}.
 
-Nach jedem Push 
+\subsection{Testarten}
+Es kann zwischen folgenden Testarten unterschieden werden \cite{eichstadt_testen_2024}:
+\begin{itemize}
+    \item \textbf{Manuelles Testen:} Tests werden ohne Automatisierung von festgelegten Testern durchgeführt. Dies wird häufig für UI/UX-Tests, visuelle Überprüfungen und Interaktionstests im Frontend genutzt.
+    \item \textbf{Unit-Test:} Testet einzelne Funktionen oder Module, z. B. die Prüfung einer E-Mail-Adresse auf Gültigkeit. Dies wird hauptsächlich im Backend angewendet.
+    \item \textbf{Integrationstest:} Überprüft das Zusammenspiel verschiedener Module, um sicherzustellen, dass sie korrekt zusammenarbeiten. Da Frontend und Backend mithilfe von API-Calls interagieren, betrifft dieser Test beide Bereiche.
+    \item \textbf{Systemtest:} Testet das gesamte System, einschließlich Benutzeroberfläche und Programmlogik. Dieser Test kann sowohl das Frontend als auch das Backend betreffen.
+    \item \textbf{Akzeptanztest:} Der letzte Test vor der Auslieferung, um sicherzustellen, dass die Software alle Anforderungen erfüllt. Dieser kann sowohl das Frontend als auch das Backend abdecken.
+    \item \textbf{Regressionstest:} Wiederholung früherer Tests, um sicherzustellen, dass Änderungen keine bestehenden Funktionen beeinträchtigen. Diese Art von Test betrifft sowohl Frontend als auch Backend.
+\end{itemize}
 
+\subsection{Fehlerarten}
+Des Weiteren kann zwischen folgenden Fehlerarten unterschieden werden, für deren Überprüfung verschiedene Testarten benötigt werden \cite{eichstadt_testen_2024}:
+\begin{itemize}
+    \item \textbf{Funktionale Fehler:} Diese treten auf, wenn eine Funktion nicht wie vorgesehen arbeitet, beispielsweise ein nicht funktionierender Link auf einer Webseite. Solche Fehler lassen sich in der Regel gut durch automatisierte Tests, wie Unit- oder Integrationstests, aufdecken.
+    \item \textbf{Inhaltliche Fehler:} Hierbei handelt es sich um Fehler im Text oder in der Darstellung von Inhalten, etwa Rechtschreibfehler oder falsche Bilder in einem Artikel. Während einige dieser Fehler durch automatisierte Tools (z. B. Rechtschreibprüfungen) erkannt werden können, erfordert die inhaltliche Prüfung in den meisten Fällen manuelle Überprüfung durch einen Tester oder Reviewer.
+    \item \textbf{Visuelle Fehler:} Diese entstehen, wenn beispielsweise ein Fenster einer Webseite einen anderen Bereich überdeckt oder eine Darstellung fehlerhaft ist. Automatisierte visuelle Regressionstests können solche Probleme erkennen, dennoch ist oft eine manuelle Sichtprüfung notwendig, um subtile Designfehler auszumachen.
+    \item \textbf{Benutzerfreundlichkeitsfehler:} Solche Fehler betreffen die Usability, etwa wenn eine Benutzerführung unnötig kompliziert oder nicht intuitiv gestaltet ist. Diese Art von Fehler lässt sich nur bedingt automatisiert testen, da sie stark von subjektiven Nutzereindrücken abhängt. Hier sind manuelle Usability-Tests und Feedback von echten Nutzern essenziell.
+\end{itemize}
+
+\subsection{Umsetzung}
+Auch die Umsetzung kann unterschiedlich in Angriff genommen werden. Es besteht die Möglichkeit, Black Box Testing, White Box Testing oder Grey Box Testing durchzuführen. Black Box Testing wird aus Benutzersicht durchgeführt, da dort die Software unabhängig vom Quellcode durchgeführt wird. White Box Testing hingegen setzt sich mit dem Kern und Struktur der Anwendung auseinander \cite{gedik_schwarz_2023}. Grey Box Testing stellt eine Mischform aus beiden Testarten dar und ist ein guter Kompromiss aus Aufwand und Nutzen. Nur kritische Systeme werden als White Box genau betrachtet, nicht so wichtige als Black Box \cite{eichstadt_testen_2024}. Daher erweist sich diese Art des Testens für dieses Projekt als am sinnvollsten.
+
+Für automatisierte Tests werden Tools wie GitHub Actions oder Jenkins verwendet. Nach jedem Push werden verschiedene Prozesse durchlaufen, darunter auch automatisierte Tests. Somit können Regressionstests regelmäßig durchgeführt werden, um nach jeder Änderung überprüfen zu können, ob bereits realisierte Features weiterhin funktionstüchtig sind.
+
+\newpage
 \section{Dokumentationskonzept}
 
 Eine strukturierte und umfassende Dokumentation ist unverzichtbar, um die Verständlichkeit, Wartbarkeit und Erweiterbarkeit der Software garantieren zu können. Sie dient als Grundlage für Entwickler, Tester und weitere Stakeholder, um sich effizient in den Code einzuarbeiten. Außerdem sollten Designentscheidungen für den Kunden ersichtlich sein.
@@ -129,6 +160,7 @@ Im Projekt werden verschiedene Tools zur Dokumentation eingesetzt. Diese unterst
     \label{tab:werkzeuge_dokumentation}
 \end{table}
 
+\newpage
 \section{Dokumente}
 Im Laufe des Projekts fallen mehrere Dokumente an, die sowohl zur internen Organisation als auch zur externen Kommunikation mit Betreuern und Kunden dienen. Diese Dokumente unterstützen das Projektmanagement, die Nachverfolgbarkeit von Fortschritten sowie die Qualitätssicherung. Eine klare Struktur und ein einheitlicher Umgang mit diesen Dokumenten sind daher essenziell, um Effizienz, Transparenz und Konsistenz zu gewährleisten.
 
@@ -148,6 +180,14 @@ Dokumente wie das Lasten- oder Pflichtenheft werden im Projektverlauf häufig an
     \item \textbf{Historisierung}: Ältere Versionen bleiben zur Nachverfolgbarkeit erhalten und sollten weiterhin zur Verfügung stehen. Dies erfolgt über die frei zugängliche Website des Teams.
     \item \textbf{Regelmäßige Reviews}: Um eine hohe Qualität und Konsistenz sicherzustellen, sollten Dokumente regelmäßig überprüft und aktualisiert werden. Hierbei wird überprüft, ob gewisse Standards oder Vorgaben eingehalten werden. Dies erfolgt durch definierte Reviewer, die nach dem Vier-Augen-Prinzip oder in Form von Peer Reviews arbeiten \cite{studysmarter_dokumentationsreview_nodate}.
 \end{itemize}
+
+\newpage
+\section{Fazit}
+Die Qualitätssicherung ist ein essenzieller Bestandteil des Projekts, um die Einhaltung aller Anforderungen zu sichern um das Endprodukt zuverlässig, wartbar und benutzerfreundlich zu gestalten. Durch strukturierte Prozesse wie Versionierung, Code-Reviews, automatisierte Tests und regelmäßige Dokumentationsupdates wird die Qualität kontinuierlich überwacht und verbessert.
+
+Die Kombination aus bewährten Methoden, modernen Tools und einer klaren Kommunikation innerhalb des Teams trägt dazu bei, Fehler frühzeitig zu identifizieren und die Effizienz der Entwicklung zu steigern. Zudem ermöglicht die regelmäßige Überprüfung der Prozesse eine kontinuierliche Optimierung der Arbeitsweise.
+
+Mit diesem Qualitätssicherungsplan wird eine solide Grundlage für das Team geschaffen, um die Projektziele erfolgreich zu erreichen und ein hochwertiges Produkt zu liefern, das den Anforderungen der Kunden gerecht wird.
 
 \newpage
 \printbibliography

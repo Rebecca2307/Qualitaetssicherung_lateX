@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  3 APR 2025 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  4 APR 2025 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -681,7 +681,7 @@ Package biblatex Info: ... file 'Qualitaetssicherungsplan.bbl' found.
  (Qualitaetssicherungsplan.bbl)
 Package biblatex Info: Reference section=0 on input line 24.
 Package biblatex Info: Reference segment=0 on input line 24.
-<logo.png, id=59, 383.18156pt x 105.01735pt>
+<logo.png, id=75, 383.18156pt x 105.01735pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 30.
@@ -724,103 +724,122 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.63 \newpage
               [1]
-Overfull \hbox (13.43661pt too wide) in paragraph at lines 71--72
+
+[2]
+Overfull \hbox (13.43661pt too wide) in paragraph at lines 76--77
 \OT1/cmr/m/n/12 Scrum oder Kan-ban ver-wen-det. Die-ses Pro-jekt ori-en-tiert sich an der Kanban-Vorgehensweise. 
  []
 
 
 
-[2]
-
 [3]
-Overfull \hbox (16.37593pt too wide) in paragraph at lines 114--115
-\OT1/cmr/m/n/12 Eine struk-tu-rier-te und um-fas-sen-de Do-ku-men-ta-ti-on ist un-ver-zicht-bar, um die Verst[]andlichkeit,
- []
-
-
-Overfull \hbox (7.07835pt too wide) in paragraph at lines 116--117
-[]\OT1/cmr/m/n/12 Im Pro-jekt wer-den ver-schie-de-ne Tools zur Do-ku-men-ta-ti-on ein-ge-setzt. Die-se un-terst[]utzen
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 124--124
-[]\OT1/cmr/bx/n/12 Automatische Ge-ne-
- []
-
-
-Underfull \hbox (badness 6445) in paragraph at lines 124--124
-[]\OT1/cmr/m/n/12 Storybook, Sty-le-gui-dist
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\OT1/cmr/bx/n/12 Architektur-
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 125--125
-[]\OT1/cmr/m/n/12 UML, READ-ME, Con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\OT1/cmr/m/n/12 README,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-\OT1/cmr/m/n/12 Komponenten-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 [4]
 
 [5]
-Overfull \hbox (22.55318pt too wide) in paragraph at lines 149--150
+
+[6]
+Overfull \hbox (6.03922pt too wide) in paragraph at lines 125--126
+[]\OT1/cmr/bx/n/12 Regressionstest: \OT1/cmr/m/n/12 Wie-der-ho-lung fr[]uherer Tests, um si-cher-zu-stel-len, dass []Anderungen
+ []
+
+
+Overfull \hbox (29.29663pt too wide) in paragraph at lines 129--131
+\OT1/cmr/m/n/12 Des Wei-te-ren kann zwi-schen fol-gen-den Feh-ler-ar-ten un-ter-schie-den wer-den, f[]ur de-ren []Uberpr[]ufung
+ []
+
+
+
+[7]
+
+[8]
+Overfull \hbox (16.37593pt too wide) in paragraph at lines 145--146
+\OT1/cmr/m/n/12 Eine struk-tu-rier-te und um-fas-sen-de Do-ku-men-ta-ti-on ist un-ver-zicht-bar, um die Verst[]andlichkeit,
+ []
+
+
+Overfull \hbox (7.07835pt too wide) in paragraph at lines 147--148
+[]\OT1/cmr/m/n/12 Im Pro-jekt wer-den ver-schie-de-ne Tools zur Do-ku-men-ta-ti-on ein-ge-setzt. Die-se un-terst[]utzen
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 155--155
+[]\OT1/cmr/bx/n/12 Automatische Ge-ne-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 155--155
+[]\OT1/cmr/m/n/12 Storybook, Sty-le-gui-dist
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\OT1/cmr/bx/n/12 Architektur-
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 156--156
+[]\OT1/cmr/m/n/12 UML, READ-ME, Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\OT1/cmr/m/n/12 README,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/cmr/m/n/12 Komponenten-
+ []
+
+
+
+[9]
+
+[10]
+Overfull \hbox (22.55318pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/12 soll-ten Do-ku-men-te re-gelm[]a^^Yig []uberpr[]uft und ak-tua-li-siert wer-den. Hier-bei wird []uberpr[]uft,
  []
 
 
 
-[6]
-Overfull \hbox (6.74236pt too wide) in paragraph at lines 154--154
+[11]
+
+[12]
+Overfull \hbox (6.74236pt too wide) in paragraph at lines 194--194
 []\OT1/cmr/m/n/12 Andr^^Se De-change. []  Agi-les Pro-jekt-ma-na-ge-ment\. In: \OT1/cmr/m/it/12 Pro-jekt-ma-na-ge-ment { Schnell
  []
 
 
-Overfull \hbox (8.24294pt too wide) in paragraph at lines 154--154
+Overfull \hbox (8.24294pt too wide) in paragraph at lines 194--194
 []\OT1/cmr/m/n/12 StudySmarter. \OT1/cmr/m/it/12 Do-ku-men-ta-ti-ons-re-view: De-fi-ni-ti-on & Tech-nik\OT1/cmr/m/n/12 . Stu-dyS-mar-ter. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 :
  []
 
 
 
-[7] (Qualitaetssicherungsplan.aux)
+[13] (Qualitaetssicherungsplan.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Qualitaetssicherungsplan.out' has not changed.
-(rerunfilecheck)             Checksum: E15D3A6EAF76CD795967380006D8E4B9;2089.
+(rerunfilecheck)             Checksum: 2764DC1A0901D8CC58FA2797B31B343B;2477.
 Package logreq Info: Writing requests to 'Qualitaetssicherungsplan.run.xml'.
 \openout1 = `Qualitaetssicherungsplan.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20523 strings out of 473523
- 363071 string characters out of 5714631
- 1236574 words of memory out of 5000000
- 43478 multiletter control sequences out of 15000+600000
+ 20545 strings out of 473523
+ 363601 string characters out of 5714631
+ 1243731 words of memory out of 5000000
+ 43488 multiletter control sequences out of 15000+600000
  564851 words of font info for 56 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  75i,11n,81p,1131b,1775s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rebis\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/rebis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Qualitaetssicherungsplan.pdf (8 pages, 145421 bytes).
+Output written on Qualitaetssicherungsplan.pdf (14 pages, 163919 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

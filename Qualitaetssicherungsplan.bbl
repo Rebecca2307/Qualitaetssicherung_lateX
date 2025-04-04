@@ -83,6 +83,80 @@
       \verb https://doi.org/10.1007/978-3-662-68169-5_4
       \endverb
     \endentry
+    \entry{eichstadt_testen_2024}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=35fb140f1448bb975aa464246d190f1b}{%
+           family={Eichstädt},
+           familyi={E\bibinitperiod},
+           given={Timm},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b4c137bc790b20150a77c68534806b86}{%
+           family={Spieker},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=35fb140f1448bb975aa464246d190f1b}{%
+           family={Eichstädt},
+           familyi={E\bibinitperiod},
+           given={Timm},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b4c137bc790b20150a77c68534806b86}{%
+           family={Spieker},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien}%
+      }
+      \strng{namehash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{fullhash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{fullhashraw}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{bibnamehash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{authorbibnamehash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{authornamehash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{authorfullhash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{authorfullhashraw}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{editorbibnamehash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{editornamehash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{editorfullhash}{31c36d7795d5d41500c028d66ea86e58}
+      \strng{editorfullhashraw}{31c36d7795d5d41500c028d66ea86e58}
+      \field{labelalpha}{ES24}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Testen hat die Aufgabe, Bugs zu finden. Es gibt Webseiten, bei denen jeder selbst zum Tester werden kann, um mit gefundenen Fehlern Geld zu verdienen. Wichtig ist, dass die ausgeführten Schritte, das erwartete Ereignis und das tatsächlich beobachtete Verhalten beschrieben werden. Neben dem manuellen Testen gibt es auch noch weitere Testarten: Unit Test, Integrationstest, Systemtest, Akzeptanztest, Regressionstest. Auch in der Umsetzung gibt es verschiedene Möglichkeiten: Black Box Testing, White Box Testing, Grey Box Testing. Eine verbreitete Art, qualitativ hochwertige Software zu schreiben, ist die testgetriebene Entwicklung, bei der der Test vor der Implementierung geschrieben wird. Um Unit Tests in Python zu schreiben, wird die Klasse Unittest verwendet. Der Zustand von Programmen kann innerhalb von Tests mit Assertions überprüft werden.}
+      \field{booktitle}{52 Stunden Informatik: Was jeder über Informatik wissen sollte}
+      \field{isbn}{978-3-658-41838-0}
+      \field{langid}{german}
+      \field{title}{Testen}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{281\bibrangedash 288}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/978-3-658-41838-0_33
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\rebis\\Zotero\\storage\\4CGMP8WS\\Eichstädt und Spieker - 2024 - Testen.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-658-41838-0_33
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-658-41838-0_33
+      \endverb
+    \endentry
     \entry{eslint_find_2025}{online}{}{}
       \name{author}{1}{}{%
         {{hash=7617890f2589e6ff9ca4bbe1359a3c29}{%
@@ -118,6 +192,49 @@
       \endverb
       \verb{url}
       \verb https://eslint.org/
+      \endverb
+    \endentry
+    \entry{gedik_schwarz_2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=19b7395cbf2a7f6cac30ef99c6946689}{%
+           family={Gedik},
+           familyi={G\bibinitperiod},
+           given={Ekrem},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{fullhash}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{fullhashraw}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{bibnamehash}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{authorbibnamehash}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{authornamehash}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{authorfullhash}{19b7395cbf2a7f6cac30ef99c6946689}
+      \strng{authorfullhashraw}{19b7395cbf2a7f6cac30ef99c6946689}
+      \field{labelalpha}{Ged23}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Beim professionellen Testen gibt es zwei verschiedene Arten, wie „White- und Black-Box-Testing“.}
+      \field{day}{4}
+      \field{langid}{german}
+      \field{month}{8}
+      \field{note}{Section: Testing}
+      \field{title}{Schwarz auf Weiß - die Unterschiede zwischen White-Box und Black-Box Testing - Qcademy}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\rebis\\Zotero\\storage\\L5AD4F8I\\schwarz-auf-weiss-die-unterschiede-zwischen-white-box-und-black-box-testing.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://qcademy.de/schwarz-auf-weiss-die-unterschiede-zwischen-white-box-und-black-box-testing/
+      \endverb
+      \verb{url}
+      \verb https://qcademy.de/schwarz-auf-weiss-die-unterschiede-zwischen-white-box-und-black-box-testing/
       \endverb
     \endentry
     \entry{helmold_projektmanagement_2023}{incollection}{}{}
